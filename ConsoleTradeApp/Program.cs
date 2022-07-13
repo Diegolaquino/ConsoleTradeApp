@@ -34,7 +34,7 @@ while (true)
 
         DateTime contractDate = DateTime.ParseExact(tradersData[2], "MM/dd/yyyy", CultureInfo.InvariantCulture);
 
-        var trade = ApplicationFactory.ExecuteAction(referenceDate, traderValue, sector, contractDate);
+        var trade = ApplicationFactory.ExecuteAction(referenceDate, traderValue, sector.ToLower(), contractDate);
 
         traders.Add(trade);
     }
