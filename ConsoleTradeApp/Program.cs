@@ -4,6 +4,12 @@ using ConsoleTradeApp;
 using ConsoleTradeApp.Factory;
 using System.Globalization;
 
+/* Questão 2
+ * Acredito que a melhor abordagem para o meu código seria criar mais um parâmetro
+ * com um valor default no executeAction e nas demais categorias já que todas elas também 
+ * terão esse atributo. 
+ */
+
 while (true)
 {
     
