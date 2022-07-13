@@ -7,7 +7,7 @@ using System.Globalization;
 /* Questão 2
  * Acredito que a melhor abordagem para o meu código seria criar mais um parâmetro
  * com um valor default no executeAction e nas demais categorias já que todas elas também 
- * terão esse atributo. 
+ * terão esse atributo e mais uma regra de criação na factory. 
  */
 
 while (true)
