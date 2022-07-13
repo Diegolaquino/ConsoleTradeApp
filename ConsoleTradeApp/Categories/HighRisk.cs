@@ -20,7 +20,5 @@ namespace ConsoleTradeApp.Categories
         public string ClientSector { get; set; }
 
         public DateTime NextPaymentDate { get; set; }
-
-        public bool IsPoliticallyExposed { get; set; }
     }
 }

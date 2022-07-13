@@ -21,6 +21,5 @@ namespace ConsoleTradeApp.Categories
 
         public DateTime NextPaymentDate { get; set; }
 
-        public bool IsPoliticallyExposed => throw new NotImplementedException();
     }
 }
